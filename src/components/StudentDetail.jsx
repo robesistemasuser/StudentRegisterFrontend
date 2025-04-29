@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getStudentById, getStudentSubjects, getClassmatesBySubject } from '../services/api'; // Importa las funciones
+import { getStudentById, getStudentSubjects, getClassmatesBySubject } from '../services/api';  
 
 function StudentDetail() {
-  const { id } = useParams(); // ID del estudiante de la URL
+  const { id } = useParams(); 
   const [student, setStudent] = useState(null);
   const [subjects, setSubjects] = useState([]);
   const [classmates, setClassmates] = useState({});
