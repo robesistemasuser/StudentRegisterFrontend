@@ -3,6 +3,8 @@ import { UserPlus, List, AlertTriangle } from 'lucide-react';
 import StudentList from './components/StudentList';
 import StudentRegister from './components/StudentRegister';
 import StudentDetail from './components/StudentDetail';
+import React from 'react';
+
 
 function App() {
   return (
