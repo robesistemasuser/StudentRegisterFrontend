@@ -24,3 +24,7 @@ Registro de Estudiantes: Los estudiantes pueden registrarse con su información 
 Selección de Materias: Los estudiantes pueden seleccionar hasta 3 materias, con validaciones para asegurar que no se repita el profesor.
 Visualización de Registros: Los estudiantes pueden ver la lista de estudiantes registrados y las materias seleccionadas.
 Administración de Datos: Los administradores pueden agregar, actualizar o eliminar estudiantes y materias.
+
+1. Clonar el repositorio del backend:**
+
+   git clone git@github.com:robesistemasuser/StudentRegisterFrontend.git
