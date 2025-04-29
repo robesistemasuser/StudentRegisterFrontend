@@ -1,12 +1,26 @@
-# React + Vite
+1. Clonar el repositorio del frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Entrar en la carpeta del proyecto:
+   cd student-registration-frontend
+   
+3. Instalar las dependencias de Node.js:
+   npm install
+   
+4. Iniciar el servidor de desarrollo:
+    npm start
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Estructura del Proyecto ##
+  
+El proyecto está dividido en dos partes principales:
 
-## Expanding the ESLint configuration
+Backend (API): Implementado en .NET 8.0, donde se gestionan las entidades de estudiantes, materias, y profesores.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend (Cliente): Implementado con ReactJS, permitiendo que los estudiantes interactúen con la aplicación a través de una interfaz web.
+
+
+## Funcionalidades ##
+Registro de Estudiantes: Los estudiantes pueden registrarse con su información personal, incluyendo la selección de materias.
+Selección de Materias: Los estudiantes pueden seleccionar hasta 3 materias, con validaciones para asegurar que no se repita el profesor.
+Visualización de Registros: Los estudiantes pueden ver la lista de estudiantes registrados y las materias seleccionadas.
+Administración de Datos: Los administradores pueden agregar, actualizar o eliminar estudiantes y materias.
